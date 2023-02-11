@@ -5,11 +5,9 @@ description: "Let's run Gradience"
 
 <Tip>You can go to `Preferences` and apply overrides for Flatpak</Tip>
 
-# 🪛️ Manual setup
-
+# Manual setup
 
 ## Libadwaita applications
-
 
 No additional setup is required for native Libadwaita applications.
 
@@ -24,21 +22,21 @@ Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to 
 
 ## GTK 3 applications
 
-
 - Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
 - For Flatpak applications, you need to override their permissions:
 
   - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
   - Use `Flatseal`_ and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
 
+# Revert Theming
 
-# 🔄 Revert Theming
+<Tip>You can press on the menu button in the headerbar and press `Reset Applied Color Scheme`
+<Frame>
+  <img src="https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/hamburger_menu.png" />
+</Frame>
 
-.. note::
-    You can press on the menu button in the headerbar and press `Reset Applied Color Scheme`
+</Tip>
 
-    .. image:: https://raw.githubusercontent.com/GradienceTeam/Design/main/Screenshots/hamburger_menu.png
-        :alt: Image of the hamburger menu
 
 🪛️ Manual revert
 
