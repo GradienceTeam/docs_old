@@ -1,0 +1,101 @@
+---
+title: "Installation"
+description: "Let's install Gradience"
+---
+
+The recommended method is to use Flatpak but you can also choose to use a package for your distro (we officialy support AUR and RPM).
+
+# Flatpak
+
+To install Gradience, run this command in your terminal:
+
+```bash
+flatpak install com.github.GradienceTeam.Gradience
+``` 
+
+This is the preferred method to install Gradience, as it will always install the most recent stable release in a portable way whatever the distribution you use.
+
+If you don't have [flatpak](https://flatpak.org) installed, this [Flatpak installation guide](https://flatpak.org/setup/) can guide
+you through the process.
+
+# Alternatives methods
+
+<Tabs>
+  <Tab title="AUR">
+  Using the [AUR](https://aur.archlinux.org) 
+
+  ```bash
+  paru -S gradience
+  ```
+  </Tab>
+  <Tab title="RPM">
+  Using a [RPM](https://rpm.org) package from [COPR](https://copr.fedorainfracloud.org/)
+  
+  ```bash
+  dnf copr enable lyessaadi/gradience
+  dnf install gradience
+  ```
+  </Tab>
+  <Tab title="DEB">
+  Using a [DEB](https://debian.org) package 
+
+  <Warning>Not available yet. Feel free to create and share a package.</Warning>
+
+  </Tab>
+</Tabs>
+
+# Avanced methods
+
+## From sources
+
+<Warning>This is the Git version, which can be unstable</Warning>
+
+The sources for Gradience can be downloaded from the [Github repo](https://github.com/GradienceTeam/Gradience).
+
+You can either clone the public repository:
+
+```bash
+git clone git://github.com/GradienceTeam/Gradience
+```
+Or download the [tarball](https://github.com/GradienceTeam/Gradience/tarball/master):
+
+```bash
+curl -OJL https://github.com/GradienceTeam/Gradience/tarball/master
+```
+
+Once you have a copy of the source, you can install it with:
+
+```bash
+make install
+```
+
+## Git package
+
+If you are using Arch Linux or an Arch based distribution, you can use the `gradience-git` package from the AUR
+
+<Warning>This is the Git version, which can be unstable</Warning>
+
+```bash
+paru -S gradience-git
+```
+
+## Troubleshooting
+
+Here's how to solve some common problems when installing Gradience.
+
+<AccordionGroup>
+  <Accordion title="AUR build fail">
+    Update your system and retry
+  </Accordion>
+</AccordionGroup>
+
+# Next steps
+
+<CardGroup>
+  <Card title="Setup" icon="sliders" href="/setup">
+    Setup your system for Gradience
+  </Card>
+  <Card title="Use!" icon="learn" href="/usage">
+    Learn how to use gradience
+  </Card>
+</CardGroup>
