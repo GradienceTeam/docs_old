@@ -49,6 +49,10 @@
       "pages": ["introduction", "installation", "setup", "usage"]
     },
     {
+      "group": "CLI",
+      "pages": ["cli/launch", "cli/usage"]
+    },
+    {
       "group": "Learn More",
       "pages": ["features", "resources"]
     },
