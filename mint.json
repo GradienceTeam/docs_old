@@ -1,41 +1,46 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Gradience",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "https://github.com/GradienceTeam/Design/raw/main/Icons/apps/logo.svg",
+    "light": "https://github.com/GradienceTeam/Design/raw/main/Icons/apps/logo.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "https://github.com/GradienceTeam/Design/blob/main/Icons/apps/logo-small.svg",
   "colors": {
-    "primary": "#0069ED",
+    "primary": "#3584e4",
     "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "dark": "#0050B4",
+    "background": {
+      "dark": "#242424",
+      "light": "#ffffff"
+    }
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Flatpak",
+      "url": "https://flathub.org/apps/details/com.github.GradienceTeam.Gradience"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "type": "github",
+    "url": "https://github.com/GradienceTeam/Gradience"
   },
+  "versions": ["v0.4.0", "v0.8.0"],
   "anchors": [
-    {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
     {
       "name": "Changelog",
       "icon": "list",
-      "url": "https://mintlify.com"
+      "url": "https://github.com/GradienceTeam/Gradience/releases"
     },
     {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.com"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/GradienceTeam"
     }
   ],
   "navigation": [
@@ -62,8 +67,10 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+    "twitter": "https://twitter.com/GradienceTeam",
+    "github": "https://github.com/GradienceTeam",
+    "website": "https://gradienceteam.github.io",
+    "discord": "https://discord.com"
+  },
+  "backgroundImage": "https://github.com/GradienceTeam/Design/blob/main/Backgrounds/pretty-purple.png"
 }
