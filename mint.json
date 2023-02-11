@@ -46,7 +46,7 @@
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "installation", "setup"]
+      "pages": ["introduction", "installation", "setup", "usage"]
     },
     {
       "group": "Learn More",
